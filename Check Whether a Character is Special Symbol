@@ -1,0 +1,9 @@
+num = int(input("Enter number: "))
+
+if num % 5 == 0:
+    if num % 11 == 0:
+        print("Divisible by both 5 and 11")
+    else:
+        print("Divisible by 5 only")
+else:
+    print("Not divisible by 5")
