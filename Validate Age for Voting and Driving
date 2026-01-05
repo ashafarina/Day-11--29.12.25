@@ -1,0 +1,9 @@
+count = 0
+
+while True:
+    ch = input("Enter character: ")
+    if ch == " ":
+        break
+    count += 1
+
+print("Total characters entered:", count)
