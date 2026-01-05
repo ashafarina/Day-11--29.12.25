@@ -1,0 +1,6 @@
+ch = input("Enter a character: ")
+
+if ch.isalnum():
+    print("It is an alphabet or digit")
+else:
+    print("It is a special symbol")
