@@ -1,0 +1,10 @@
+ num = int(input("Enter number: "))
+smallest = 9
+
+while num > 0:
+    d = num % 10
+    if d < smallest:
+        smallest = d
+    num //= 10
+
+print("Smallest digit:", smallest)
